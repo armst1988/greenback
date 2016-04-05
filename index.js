@@ -13,4 +13,4 @@ $('li').each(function(i, element) {
   pairs.summary.numberOfCapitals = pairs.capitals.length;
 });
 
-console.log("JSON: " + JSON.stringify(pairs));
+console.log(JSON.stringify(pairs));
