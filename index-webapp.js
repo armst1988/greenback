@@ -23,7 +23,7 @@ app.listen(8090, function() {
   console.log("listening port 8090");
 });
 
-function parseData(html, callback) {
+function parseData(html) {
   var $ = cheerio.load(html);
   var pairs = {};
   pairs.capitals = [];
